@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat Header</title>
+    <link rel="stylesheet" href="../../css/general.css">
+    <link rel="stylesheet" href="../../css/header.css">
+    <link rel="stylesheet" href="../../css/normalize.css">
+  </head>
+  <body>
+    <header class="header">
+      <section class="header__container">
+            <section class="header__container--logo">
+                <strong>Pipegram</strong>
+            </section>
+            <section class="header__container__option">
+                <div class="header__container__option--icon">
+                    <img src="../../img/plus-main.png" alt="">
+                </div>
+                <div class="header__container__option--icon">
+                    <img src="../../img/search-header.png" alt="">
+                </div>
+                <div class="header__container__option--icon" id="menu-button">
+                   <img src="../../img/menu-header.png" alt="">
+                </div>
+            </section>
+      </section>
+      <section class="header__sort">
+        <div class="header__sort--option active-option">
+            <a href="#" class="a">All</a>
+        </div>
+        <div class="header__sort--option">
+            <a href="#" class="a">Important</a>
+        </div>
+        <div class="header__sort--option">
+            <a href="#" class="a">Unread</a>
+        </div>
+        <div class="header__sort--option">
+            <a href="#" class="a">Read</a>
+        </div>
+      </section>
+      <section class="header__menu" id="menu">
+        <header class="header__menu__header">
+          <div class="header__menu__header--icon" id="back-menu">
+              <img src="../../img/arrow-to-right.png" alt="">
+          </div>
+          <div class="header__menu__header--icon">
+              <img src="../../img/settings-icon.png" alt="">
+          </div>
+        </header>
+        <main class="header__menu__main">
+          <div class="header__menu__main--profile-photo">
+            <img src="../../img/profile-photo.jpg" alt="">
+          </div>
+          <div class="header__menu__main--name">
+            <p class="first-name">Gustavo</p>
+            <p class="last-name">Pipe</p>
+          </div>
+        </main>
+        <section class="header__menu__options">
+          <div class="header__menu__options--item">
+              <img src="../../img/contact-icon.png" alt="Contacts">
+              <p>Contacts</p>
+          </div>
+          <div class="header__menu__options--item">
+              <img src="../../img/call-icon.png" alt="Calls">
+              <p>Calls</p>
+          </div>
+          <div class="header__menu__options--item">
+              <img src="../../img/bookmark-icon.png" alt="Save Messages">
+              <p>Save messages</p>
+          </div>
+          <div class="header__menu__options--item">
+              <img src="../../img/add-contact-icon.png" alt="Add contact">
+              <p>Invite Friends</p>
+          </div>
+          <div class="header__menu__options--item">
+              <img src="../../img/support-help-icon.png" alt="Help">
+              <p>Pipegram FAQ</p>
+          </div>
+        </section>
+      </section>
+    </header>
+    <script src="../../js/header.js"></script>
+  </body>
+</html>
